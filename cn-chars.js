@@ -1,8 +1,8 @@
-var simplifiedCharsCodeMap = {};
+﻿var simplifiedCharsCodeMap = {};
 var traditionalCharsCodeMap = {};
 var fs = require('fs');
-var simplifiedCharsCode = JSON.parse(fs.readFileSync('simplifiedCharsCode.json', 'utf8'));
-var traditionalCharsCode = JSON.parse(fs.readFileSync('traditionalCharsCode.json', 'utf8'));
+var simplifiedCharsCode = JSON.parse(fs.readFileSync(__dirname + '/simplifiedCharsCode.json'));
+var traditionalCharsCode = JSON.parse(fs.readFileSync(__dirname + '/traditionalCharsCode.json'));
 
 simplifiedCharsCode.forEach(function(code, index) {
     simplifiedCharsCodeMap[code] = index;
