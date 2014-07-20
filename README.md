@@ -8,9 +8,12 @@ cn-chars
 var cnchars = require('cn-chars');
 ```
 ## 接口
-`toSimplifiedChar(cnChar)`
+*toSimplifiedChar(cnChar)*
+
 转化输入的汉字`cnChar`为简体形式。若输入的汉字为简体形式，则输出原汉字；若输入的汉字无相应简体形式，则输出原汉字。函数只接受一个汉字的输入，多余汉字将被忽略。
-`toTraditionalChar(cnChar)`
+
+*toTraditionalChar(cnChar)*
+
 转化输入的汉字`cnChar`为繁体形式。若输入的汉字为繁体形式，则输出原汉字；若输入的汉字无相应繁体形式，则输出原汉字。函数只接受一个汉字的输入，多余汉字将被忽略。
 ## 示例
 ```
