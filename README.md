@@ -3,6 +3,8 @@
 
 一个对简体和繁体汉字相互转化的Node.js模块
 
+[![build status](https://travis-ci.org/liushuping/cn-chars.svg)](https://travis-ci.org/liushuping/cn-chars.svg)
+
 ## 使用
 ```javascript
 var cnchars = require('cn-chars');
