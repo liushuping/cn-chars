@@ -30,10 +30,10 @@ console.log(result); //output: 钟
 ## Test
 Make sure `mocha` is installed globally
 
-``
+```
 npm install mocha -g
 
-``
+```
 Run `npm test` to run unit test
 
 ## License
