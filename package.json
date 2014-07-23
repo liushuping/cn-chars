@@ -1,6 +1,6 @@
 ﻿{
   "name": "cn-chars",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "一个对简体和繁体汉字相互转化的Node.js模块",
   "main": "cn-chars.js",
   "directories": {
